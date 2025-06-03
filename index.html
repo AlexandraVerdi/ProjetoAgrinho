@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header>
     <h1>Festejo Conectado</h1>
     <p>Campo e Cidade em Harmonia</p>
@@ -63,3 +64,11 @@
 </footer>
 
 </body>
+
+<script>
+  function alterarFonte(tamanho) {
+    const body = document.querySelector('body');
+    const atual = parseFloat(getComputedStyle(body).fontSize);
+    body.style.fontSize = (atual + tamanho) + 'px';
+  }
+</script>
