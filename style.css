@@ -90,3 +90,24 @@ footer {
   padding: 20px;
   margin-top: 40px;
 }
+.rodape-centralizado {
+  position: relative;
+  background: #3a6b35;
+  color: white;
+  text-align: center;
+  padding: 20px 40px;
+}
+
+.logo-parana-esquerda {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 230px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.logo-parana-esquerda:hover {
+  opacity: 1;
+}
