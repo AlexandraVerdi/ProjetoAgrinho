@@ -170,3 +170,11 @@ main .zoom:hover img {
   cursor: zoom-out;
   z-index: 999;
 }
+main {
+  padding: 0 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.descricao h2 {
+  margin-left: 30px;
+}
