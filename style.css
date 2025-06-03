@@ -10,6 +10,11 @@ body {
   color: #333;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 header {
   text-align: center;
   padding: 40px;
@@ -50,11 +55,15 @@ header p {
   width: 300px;
   text-align: center;
   padding: 20px;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
+  display: block;
+  color: #3a6b35;
 }
 
+/* Quando passa o mouse no card inteiro */
 .card:hover {
-  transform: scale(1.05);
+  background-color: #3a6b35;
+  color: white;
 }
 
 .card img {
@@ -62,11 +71,16 @@ header p {
   height: 180px;
   object-fit: cover;
   border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .card h2 {
-  margin: 15px 0 10px;
-  color: #3a6b35;
+  margin: 10px 0 5px;
+  font-size: 1.4em;
+}
+
+.card p {
+  font-size: 1em;
 }
 
 footer {
